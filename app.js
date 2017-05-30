@@ -12,6 +12,6 @@ app.use(bodyParser.json());
 load('routes').into(app);
 
 // Start Server
-app.listen(2828, () => {
-    console.log("Server up on port " + 2828);
+app.listen(5000, () => {
+    console.log("Server up on port " + 5000);
 });
